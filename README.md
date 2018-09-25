@@ -23,3 +23,6 @@ if 2nd entry resd,resb,resq,resw then data gets sorted accordingly into symbol t
 3]section text
 in this i separated opcode, oprand1, oprand2 and check for oprands in symtable and regtable and populate entries in ___.i file
 separate out labels also
+
+This is incomplete version of assembler right now..
+I am working on it.
