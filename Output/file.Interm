@@ -1,0 +1,24 @@
+1	section	.data
+2	a	db	"Vishal kokane",10,0
+3	c	db	"Pune uNiversity",10,0
+4	First	dd	10 20 30 40 
+5	msg	dd	50 90 87 
+6	msg1	dd	50 90 870 
+7	data1	dq	7 8 9 6 5 4 
+8		dq	96 65 1 2 3 
+9	section	.bss
+10	no1	resd	5
+11	no3	resb	10
+12	no2	resq	2
+13	section	.text
+14	extern	printf
+15	global	main
+16	main:
+17	mov	reg#1	sym#2
+18	mov	reg#0	lit#18
+19	jmp	lit#19	
+20	xor	reg#3	reg#3
+21	add	reg#2	reg#0
+22	mov	reg#16	reg#20
+23	qp:
+24	qp	reg#16	
