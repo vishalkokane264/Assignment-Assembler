@@ -1,0 +1,27 @@
+lineno	symname	type	size	tot_chr	def	sorl	address	section	data
+1			0	0			0		
+2	a	db	1	16	ds	s	0	.data	"Vishal kokane",10,0
+
+3	c	db	1	18	ds	s	16	.data	"Pune uNiversity",10,0
+
+4	First	dd	4	4	ds	s	34	.data	10,20,30,40
+5	msg	dd	4	3	ds	s	50	.data	50,90,87
+6	msg1	dd	4	3	ds	s	62	.data	50,90,870
+7	data1	dq	8	6	ds	s	74	.data	7,8,9,6,5,4
+8		dq	8	5	ds	s	122	.data	96,65,1,2,3
+9			0	0			0		
+10	no1	resd	4	5	ds	s	0	.bss	5
+11	no3	resb	1	10	ds	s	20	.bss	10
+12	no2	resq	8	2	ds	s	30	.bss	2
+13			0	0			0		
+14			0	0			0		
+15			0	0			0		
+16	main		0	0	dl	l	0	.text	
+17			0	0			0		
+18			0	0			0		
+19			0	0			0		
+20			0	0			0		
+21			0	0			0		
+22			0	0			0		
+23	qp		0	0	dl	l	0	.text	
+24			0	0			0		
