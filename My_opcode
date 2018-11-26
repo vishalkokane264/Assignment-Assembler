@@ -1,0 +1,10 @@
+mov	89	32
+mov	89	16
+mov	88	8
+add	81	32
+add	03	16
+add	81	8
+xor	31	32
+xor	81	16
+xor	81	8
+mul	f7	32
