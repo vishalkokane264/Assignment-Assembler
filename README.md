@@ -36,3 +36,8 @@ Things that remaining to do
 
 This is incomplete version of assembler right now..
 I am working on it.
+
+Run:
+gcc finalassembler.c
+
+./a.out <filename.asm>
